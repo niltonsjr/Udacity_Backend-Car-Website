@@ -38,5 +38,4 @@ public class PricingServiceApplicationTests {
 		mockMvc.perform(get("/services/price").param("vehicleId", "100"))
 				.andExpect(status().isNotFound());
 	}
-
 }
